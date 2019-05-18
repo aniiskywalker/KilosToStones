@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184473E52290B7960084F3F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184473E42290B7960084F3F4 /* AppDelegate.swift */; };
+		184473E72290B7960084F3F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184473E62290B7960084F3F4 /* ViewController.swift */; };
+		184473EA2290B7960084F3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184473E82290B7960084F3F4 /* Main.storyboard */; };
+		184473EC2290B7990084F3F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184473EB2290B7990084F3F4 /* Assets.xcassets */; };
+		184473EF2290B7990084F3F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184473ED2290B7990084F3F4 /* LaunchScreen.storyboard */; };
+		184473FA2290B79A0084F3F4 /* KgToStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184473F92290B79A0084F3F4 /* KgToStonesTests.swift */; };
+		184474052290B79A0084F3F4 /* KgToStonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184474042290B79A0084F3F4 /* KgToStonesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184473F62290B79A0084F3F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184473D92290B7960084F3F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184473E02290B7960084F3F4;
+			remoteInfo = KgToStones;
+		};
+		184474012290B79A0084F3F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184473D92290B7960084F3F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184473E02290B7960084F3F4;
+			remoteInfo = KgToStones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184473E12290B7960084F3F4 /* KgToStones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KgToStones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184473E42290B7960084F3F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184473E62290B7960084F3F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184473E92290B7960084F3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184473EB2290B7990084F3F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184473EE2290B7990084F3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184473F02290B7990084F3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184473F52290B79A0084F3F4 /* KgToStonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KgToStonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184473F92290B79A0084F3F4 /* KgToStonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgToStonesTests.swift; sourceTree = "<group>"; };
+		184473FB2290B79A0084F3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184474002290B79A0084F3F4 /* KgToStonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KgToStonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184474042290B79A0084F3F4 /* KgToStonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgToStonesUITests.swift; sourceTree = "<group>"; };
+		184474062290B79A0084F3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184473DE2290B7960084F3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473F22290B79A0084F3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473FD2290B79A0084F3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184473D82290B7960084F3F4 = {
+			isa = PBXGroup;
+			children = (
+				184473E32290B7960084F3F4 /* KgToStones */,
+				184473F82290B79A0084F3F4 /* KgToStonesTests */,
+				184474032290B79A0084F3F4 /* KgToStonesUITests */,
+				184473E22290B7960084F3F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184473E22290B7960084F3F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184473E12290B7960084F3F4 /* KgToStones.app */,
+				184473F52290B79A0084F3F4 /* KgToStonesTests.xctest */,
+				184474002290B79A0084F3F4 /* KgToStonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184473E32290B7960084F3F4 /* KgToStones */ = {
+			isa = PBXGroup;
+			children = (
+				184473E42290B7960084F3F4 /* AppDelegate.swift */,
+				184473E62290B7960084F3F4 /* ViewController.swift */,
+				184473E82290B7960084F3F4 /* Main.storyboard */,
+				184473EB2290B7990084F3F4 /* Assets.xcassets */,
+				184473ED2290B7990084F3F4 /* LaunchScreen.storyboard */,
+				184473F02290B7990084F3F4 /* Info.plist */,
+			);
+			path = KgToStones;
+			sourceTree = "<group>";
+		};
+		184473F82290B79A0084F3F4 /* KgToStonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				184473F92290B79A0084F3F4 /* KgToStonesTests.swift */,
+				184473FB2290B79A0084F3F4 /* Info.plist */,
+			);
+			path = KgToStonesTests;
+			sourceTree = "<group>";
+		};
+		184474032290B79A0084F3F4 /* KgToStonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184474042290B79A0084F3F4 /* KgToStonesUITests.swift */,
+				184474062290B79A0084F3F4 /* Info.plist */,
+			);
+			path = KgToStonesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184473E02290B7960084F3F4 /* KgToStones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184474092290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStones" */;
+			buildPhases = (
+				184473DD2290B7960084F3F4 /* Sources */,
+				184473DE2290B7960084F3F4 /* Frameworks */,
+				184473DF2290B7960084F3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KgToStones;
+			productName = KgToStones;
+			productReference = 184473E12290B7960084F3F4 /* KgToStones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184473F42290B79A0084F3F4 /* KgToStonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844740C2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesTests" */;
+			buildPhases = (
+				184473F12290B79A0084F3F4 /* Sources */,
+				184473F22290B79A0084F3F4 /* Frameworks */,
+				184473F32290B79A0084F3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184473F72290B79A0084F3F4 /* PBXTargetDependency */,
+			);
+			name = KgToStonesTests;
+			productName = KgToStonesTests;
+			productReference = 184473F52290B79A0084F3F4 /* KgToStonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184473FF2290B79A0084F3F4 /* KgToStonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844740F2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesUITests" */;
+			buildPhases = (
+				184473FC2290B79A0084F3F4 /* Sources */,
+				184473FD2290B79A0084F3F4 /* Frameworks */,
+				184473FE2290B79A0084F3F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184474022290B79A0084F3F4 /* PBXTargetDependency */,
+			);
+			name = KgToStonesUITests;
+			productName = KgToStonesUITests;
+			productReference = 184474002290B79A0084F3F4 /* KgToStonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184473D92290B7960084F3F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ana Victoria Frias";
+				TargetAttributes = {
+					184473E02290B7960084F3F4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					184473F42290B79A0084F3F4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 184473E02290B7960084F3F4;
+					};
+					184473FF2290B79A0084F3F4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 184473E02290B7960084F3F4;
+					};
+				};
+			};
+			buildConfigurationList = 184473DC2290B7960084F3F4 /* Build configuration list for PBXProject "KgToStones" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184473D82290B7960084F3F4;
+			productRefGroup = 184473E22290B7960084F3F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184473E02290B7960084F3F4 /* KgToStones */,
+				184473F42290B79A0084F3F4 /* KgToStonesTests */,
+				184473FF2290B79A0084F3F4 /* KgToStonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184473DF2290B7960084F3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184473EF2290B7990084F3F4 /* LaunchScreen.storyboard in Resources */,
+				184473EC2290B7990084F3F4 /* Assets.xcassets in Resources */,
+				184473EA2290B7960084F3F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473F32290B79A0084F3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473FE2290B79A0084F3F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184473DD2290B7960084F3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184473E72290B7960084F3F4 /* ViewController.swift in Sources */,
+				184473E52290B7960084F3F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473F12290B79A0084F3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184473FA2290B79A0084F3F4 /* KgToStonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184473FC2290B79A0084F3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184474052290B79A0084F3F4 /* KgToStonesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184473F72290B79A0084F3F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184473E02290B7960084F3F4 /* KgToStones */;
+			targetProxy = 184473F62290B79A0084F3F4 /* PBXContainerItemProxy */;
+		};
+		184474022290B79A0084F3F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184473E02290B7960084F3F4 /* KgToStones */;
+			targetProxy = 184474012290B79A0084F3F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184473E82290B7960084F3F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184473E92290B7960084F3F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184473ED2290B7990084F3F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184473EE2290B7990084F3F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184474072290B79A0084F3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184474082290B79A0084F3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1844740A2290B79A0084F3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1844740B2290B79A0084F3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1844740D2290B79A0084F3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KgToStones.app/KgToStones";
+			};
+			name = Debug;
+		};
+		1844740E2290B79A0084F3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KgToStones.app/KgToStones";
+			};
+			name = Release;
+		};
+		184474102290B79A0084F3F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KgToStones;
+			};
+			name = Debug;
+		};
+		184474112290B79A0084F3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BB3J2552AH;
+				INFOPLIST_FILE = KgToStonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KgToStones;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184473DC2290B7960084F3F4 /* Build configuration list for PBXProject "KgToStones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184474072290B79A0084F3F4 /* Debug */,
+				184474082290B79A0084F3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184474092290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844740A2290B79A0084F3F4 /* Debug */,
+				1844740B2290B79A0084F3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1844740C2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844740D2290B79A0084F3F4 /* Debug */,
+				1844740E2290B79A0084F3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1844740F2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184474102290B79A0084F3F4 /* Debug */,
+				184474112290B79A0084F3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184473D92290B7960084F3F4 /* Project object */;
+}
