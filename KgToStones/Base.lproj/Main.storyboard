@@ -1,24 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l94-do-XmB">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="eng-cb-4az">
+            <objects>
+                <navigationController id="l94-do-XmB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="im2-uX-wSN">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WsF-CM-pPX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qi7-Fa-eex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1531" y="118"/>
+        </scene>
+        <!--Kilos To Stones-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KgToStones" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMY-p5-Uoy">
+                                <rect key="frame" x="0.0" y="113" width="414" height="40"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wPi-gZ-uiv">
+                                        <rect key="frame" x="126" y="5" width="288" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kilogramos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ze-ps-BIY">
+                                        <rect key="frame" x="10" y="9.5" width="86" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dgf-2b-MRQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="wPi-gZ-uiv" secondAttribute="bottom" constant="5" id="SKz-2v-xGM"/>
+                                    <constraint firstItem="7ze-ps-BIY" firstAttribute="leading" secondItem="pMY-p5-Uoy" secondAttribute="leading" constant="10" id="aiV-VO-xBG"/>
+                                    <constraint firstAttribute="trailing" secondItem="wPi-gZ-uiv" secondAttribute="trailing" id="ciV-Zs-cfG"/>
+                                    <constraint firstItem="wPi-gZ-uiv" firstAttribute="leading" secondItem="7ze-ps-BIY" secondAttribute="trailing" constant="30" id="d2t-vB-nET"/>
+                                    <constraint firstItem="7ze-ps-BIY" firstAttribute="centerY" secondItem="pMY-p5-Uoy" secondAttribute="centerY" id="e6Q-GC-veX"/>
+                                    <constraint firstItem="wPi-gZ-uiv" firstAttribute="top" secondItem="pMY-p5-Uoy" secondAttribute="top" constant="5" id="fGX-k1-k1l"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YhZ-Vy-1nv">
+                                <rect key="frame" x="0.0" y="323" width="414" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw4-Am-G7b">
+                                        <rect key="frame" x="10" y="9.5" width="54" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="54" id="PJf-9L-xWV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ht2-HK-Tt1">
+                                        <rect key="frame" x="126" y="5" width="288" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="dw4-Am-G7b" firstAttribute="leading" secondItem="YhZ-Vy-1nv" secondAttribute="leading" constant="10" id="HO0-Ah-cAZ"/>
+                                    <constraint firstItem="Ht2-HK-Tt1" firstAttribute="top" secondItem="YhZ-Vy-1nv" secondAttribute="top" constant="5" id="Kh8-Ig-8ei"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ht2-HK-Tt1" secondAttribute="bottom" constant="5" id="W7f-3h-0sy"/>
+                                    <constraint firstItem="dw4-Am-G7b" firstAttribute="centerY" secondItem="YhZ-Vy-1nv" secondAttribute="centerY" id="dto-vx-Lhl"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ht2-HK-Tt1" secondAttribute="bottom" constant="5" id="dvz-uz-MDM"/>
+                                    <constraint firstItem="Ht2-HK-Tt1" firstAttribute="leading" secondItem="dw4-Am-G7b" secondAttribute="trailing" constant="62" id="oje-T0-SCl"/>
+                                    <constraint firstItem="Ht2-HK-Tt1" firstAttribute="top" secondItem="YhZ-Vy-1nv" secondAttribute="top" constant="5" id="ph9-vT-NYY"/>
+                                    <constraint firstAttribute="height" constant="40" id="qUw-hp-Cnb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ht2-HK-Tt1" secondAttribute="trailing" id="uiE-Bm-ARv"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yST-K0-Xfg">
+                                <rect key="frame" x="160.5" y="213" width="93" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LSz-BD-Xp7"/>
+                                    <constraint firstAttribute="width" constant="93" id="iRc-Ij-GiI"/>
+                                </constraints>
+                                <state key="normal" title="Convertir"/>
+                                <connections>
+                                    <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nyM-Ze-nsy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YhZ-Vy-1nv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Aui-Ys-x0P"/>
+                            <constraint firstItem="pMY-p5-Uoy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BLG-TF-OpP"/>
+                            <constraint firstItem="YhZ-Vy-1nv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ieb-xh-iGS"/>
+                            <constraint firstItem="yST-K0-Xfg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YLv-Ng-wfi"/>
+                            <constraint firstItem="pMY-p5-Uoy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="nA6-cR-Y0c"/>
+                            <constraint firstItem="yST-K0-Xfg" firstAttribute="top" secondItem="pMY-p5-Uoy" secondAttribute="bottom" constant="60" id="s8T-wA-2JO"/>
+                            <constraint firstItem="pMY-p5-Uoy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ybS-TJ-WHK"/>
+                            <constraint firstItem="YhZ-Vy-1nv" firstAttribute="top" secondItem="yST-K0-Xfg" secondAttribute="bottom" constant="60" id="yeZ-UY-Qt1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Kilos To Stones" id="ejR-bJ-bHn"/>
+                    <connections>
+                        <outlet property="inputText" destination="wPi-gZ-uiv" id="T53-BJ-YFn"/>
+                        <outlet property="resultLabel" destination="Ht2-HK-Tt1" id="MxI-YC-f5B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-671.01449275362324" y="130.58035714285714"/>
         </scene>
     </scenes>
 </document>

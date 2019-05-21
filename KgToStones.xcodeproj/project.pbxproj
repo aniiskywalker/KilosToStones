@@ -14,6 +14,12 @@
 		184473EF2290B7990084F3F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184473ED2290B7990084F3F4 /* LaunchScreen.storyboard */; };
 		184473FA2290B79A0084F3F4 /* KgToStonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184473F92290B79A0084F3F4 /* KgToStonesTests.swift */; };
 		184474052290B79A0084F3F4 /* KgToStonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184474042290B79A0084F3F4 /* KgToStonesUITests.swift */; };
+		184474142290C0760084F3F4 /* ConvertWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184474132290C0760084F3F4 /* ConvertWS.swift */; };
+		184474182293641D0084F3F4 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184474172293641D0084F3F4 /* LoadingOverlay.swift */; };
+		1844741A2293645B0084F3F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184474192293645B0084F3F4 /* Extensions.swift */; };
+		202E533A66517AB6AB081EFA /* Pods_KgToStones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565ABB57806090DCEF5F7365 /* Pods_KgToStones.framework */; };
+		5DD3C24FFCBD516F78C1A87C /* Pods_KgToStonesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63581498154A51AC18A8E947 /* Pods_KgToStonesTests.framework */; };
+		B2CB013D751D359752D5350B /* Pods_KgToStonesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170D7E85B5BA8FC93876C5D8 /* Pods_KgToStonesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073F26F4189E31A248CE2CCF /* Pods-KgToStonesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStonesUITests.release.xcconfig"; path = "Target Support Files/Pods-KgToStonesUITests/Pods-KgToStonesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		170D7E85B5BA8FC93876C5D8 /* Pods_KgToStonesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KgToStonesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184473E12290B7960084F3F4 /* KgToStones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KgToStones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184473E42290B7960084F3F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184473E62290B7960084F3F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		184474002290B79A0084F3F4 /* KgToStonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KgToStonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184474042290B79A0084F3F4 /* KgToStonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KgToStonesUITests.swift; sourceTree = "<group>"; };
 		184474062290B79A0084F3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184474132290C0760084F3F4 /* ConvertWS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertWS.swift; sourceTree = "<group>"; };
+		184474172293641D0084F3F4 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		184474192293645B0084F3F4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		246DEDDC55A354973443B00B /* Pods-KgToStones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStones.debug.xcconfig"; path = "Target Support Files/Pods-KgToStones/Pods-KgToStones.debug.xcconfig"; sourceTree = "<group>"; };
+		2F54F796F6C839B06200F9C4 /* Pods-KgToStonesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStonesTests.release.xcconfig"; path = "Target Support Files/Pods-KgToStonesTests/Pods-KgToStonesTests.release.xcconfig"; sourceTree = "<group>"; };
+		47B44677268FD225A66BA127 /* Pods-KgToStonesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStonesUITests.debug.xcconfig"; path = "Target Support Files/Pods-KgToStonesUITests/Pods-KgToStonesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47D3F6922AE21A463C1D5A4C /* Pods-KgToStonesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStonesTests.debug.xcconfig"; path = "Target Support Files/Pods-KgToStonesTests/Pods-KgToStonesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		565ABB57806090DCEF5F7365 /* Pods_KgToStones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KgToStones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63581498154A51AC18A8E947 /* Pods_KgToStonesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KgToStonesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C88DC82532568C1685EAFC1 /* Pods-KgToStones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KgToStones.release.xcconfig"; path = "Target Support Files/Pods-KgToStones/Pods-KgToStones.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202E533A66517AB6AB081EFA /* Pods_KgToStones.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD3C24FFCBD516F78C1A87C /* Pods_KgToStonesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CB013D751D359752D5350B /* Pods_KgToStonesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +98,15 @@
 		184473D82290B7960084F3F4 = {
 			isa = PBXGroup;
 			children = (
+				18447416229364060084F3F4 /* Utilities */,
+				18447415229363FF0084F3F4 /* Extensions */,
+				184474122290C04C0084F3F4 /* WS */,
 				184473E32290B7960084F3F4 /* KgToStones */,
 				184473F82290B79A0084F3F4 /* KgToStonesTests */,
 				184474032290B79A0084F3F4 /* KgToStonesUITests */,
 				184473E22290B7960084F3F4 /* Products */,
+				2A63114232E92DA745E12754 /* Pods */,
+				83F5AE2533C9FE7260147269 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +151,53 @@
 			path = KgToStonesUITests;
 			sourceTree = "<group>";
 		};
+		184474122290C04C0084F3F4 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				184474132290C0760084F3F4 /* ConvertWS.swift */,
+			);
+			path = WS;
+			sourceTree = "<group>";
+		};
+		18447415229363FF0084F3F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				184474192293645B0084F3F4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18447416229364060084F3F4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				184474172293641D0084F3F4 /* LoadingOverlay.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2A63114232E92DA745E12754 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246DEDDC55A354973443B00B /* Pods-KgToStones.debug.xcconfig */,
+				9C88DC82532568C1685EAFC1 /* Pods-KgToStones.release.xcconfig */,
+				47D3F6922AE21A463C1D5A4C /* Pods-KgToStonesTests.debug.xcconfig */,
+				2F54F796F6C839B06200F9C4 /* Pods-KgToStonesTests.release.xcconfig */,
+				47B44677268FD225A66BA127 /* Pods-KgToStonesUITests.debug.xcconfig */,
+				073F26F4189E31A248CE2CCF /* Pods-KgToStonesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83F5AE2533C9FE7260147269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565ABB57806090DCEF5F7365 /* Pods_KgToStones.framework */,
+				63581498154A51AC18A8E947 /* Pods_KgToStonesTests.framework */,
+				170D7E85B5BA8FC93876C5D8 /* Pods_KgToStonesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184474092290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStones" */;
 			buildPhases = (
+				1EA90DCC0680A6617D7A8A97 /* [CP] Check Pods Manifest.lock */,
 				184473DD2290B7960084F3F4 /* Sources */,
 				184473DE2290B7960084F3F4 /* Frameworks */,
 				184473DF2290B7960084F3F4 /* Resources */,
+				606E10E7EC6812652288A499 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1844740C2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesTests" */;
 			buildPhases = (
+				B8CC0096AD95F306F24073B9 /* [CP] Check Pods Manifest.lock */,
 				184473F12290B79A0084F3F4 /* Sources */,
 				184473F22290B79A0084F3F4 /* Frameworks */,
 				184473F32290B79A0084F3F4 /* Resources */,
@@ -167,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1844740F2290B79A0084F3F4 /* Build configuration list for PBXNativeTarget "KgToStonesUITests" */;
 			buildPhases = (
+				905EB40C2A3D97797631C0F7 /* [CP] Check Pods Manifest.lock */,
 				184473FC2290B79A0084F3F4 /* Sources */,
 				184473FD2290B79A0084F3F4 /* Frameworks */,
 				184473FE2290B79A0084F3F4 /* Resources */,
@@ -251,13 +328,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EA90DCC0680A6617D7A8A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KgToStones-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606E10E7EC6812652288A499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KgToStones/Pods-KgToStones-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KgToStones/Pods-KgToStones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905EB40C2A3D97797631C0F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KgToStonesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CC0096AD95F306F24073B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KgToStonesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184473DD2290B7960084F3F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1844741A2293645B0084F3F4 /* Extensions.swift in Sources */,
 				184473E72290B7960084F3F4 /* ViewController.swift in Sources */,
+				184474142290C0760084F3F4 /* ConvertWS.swift in Sources */,
 				184473E52290B7960084F3F4 /* AppDelegate.swift in Sources */,
+				184474182293641D0084F3F4 /* LoadingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +601,7 @@
 		};
 		1844740A2290B79A0084F3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246DEDDC55A354973443B00B /* Pods-KgToStones.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,12 +614,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1844740B2290B79A0084F3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C88DC82532568C1685EAFC1 /* Pods-KgToStones.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +633,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anafrias.KgToStones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1844740D2290B79A0084F3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D3F6922AE21A463C1D5A4C /* Pods-KgToStonesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +661,7 @@
 		};
 		1844740E2290B79A0084F3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F54F796F6C839B06200F9C4 /* Pods-KgToStonesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +683,7 @@
 		};
 		184474102290B79A0084F3F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B44677268FD225A66BA127 /* Pods-KgToStonesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +704,7 @@
 		};
 		184474112290B79A0084F3F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073F26F4189E31A248CE2CCF /* Pods-KgToStonesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
