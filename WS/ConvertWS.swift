@@ -15,7 +15,7 @@ protocol convertDelegate {
     func didFailGetResult(error: String)
 }
 
-class ConvertWS: NSObject, NSURLConnectionDelegate, NSURLConnectionDataDelegate, XMLParserDelegate {
+class ConvertWS: NSObject{
     var delegate: convertDelegate!
     var mutableData:NSMutableData  = NSMutableData()
     var currentElementName:String = ""
@@ -80,29 +80,5 @@ class ConvertWS: NSObject, NSURLConnectionDelegate, NSURLConnectionDataDelegate,
         }
         task.resume()
 
-    }
-    
-    func connection(_ connection: NSURLConnection, didReceive response: URLResponse) {
-        mutableData = NSMutableData()
-    }
-    
-    func connection(_ connection: NSURLConnection, didReceive data: Data) {
-        self.mutableData.append(data)
-    }
-    
-    func connectionDidFinishLoading(_ connection: NSURLConnection) {
-        
-        let xmlParser = XMLParser(data: mutableData as Data)
-        xmlParser.delegate = self
-        xmlParser.parse()
-        xmlParser.shouldResolveExternalEntities = true
-    }
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
-        currentElementName = elementName
-    }
-    func parser(_ parser: XMLParser, foundCharacters string: String) {
-        if currentElementName == "ConvertTempResult" {
-            print(string)
-        }
     }
 }
